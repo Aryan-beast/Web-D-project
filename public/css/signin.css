@@ -1,0 +1,147 @@
+html,
+body {
+  height: 100%;
+  margin-top: 0px;
+}
+
+/* body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(https://www.theindia.co.in/blog/wp-content/uploads/2019/10/animal-animal-photography-big-cat-2541239.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://www.theindia.co.in/blog/wp-content/uploads/2019/10/animal-animal-photography-big-cat-2541239.jpg);
+}
+
+.container{
+    margin-top: 10rem;
+}
+
+.form-signin {
+    margin-top: 15rem;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .form-floating .form-control{
+    width: 320px;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.i{
+    background-color: azure;
+    border-radius: 2rem;
+    /* flex-basis: 31%; */
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #647bfc, #f0fa69);
+    color: rgb(19, 18, 18);
+    padding: 1rem, 0, 1rem;
+    border-top-left-radius: 7.5rem ;
+    font-size: 13px;
+    line-height: 20px;
+    
+
+}
+.row1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.row1 h3{
+    color: blueviolet;
+}
+.col1{
+    flex-basis: 15%;
+    padding: 10px;
+
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.underline{
+    width: 100%;
+    /* margin-left: 4.5rem; */
+    height: 5px;
+    background: #04dbf7;
+    border-radius: 3px;
+    position: relative;
+    top: 0px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #0b0a5c;
+    border-radius: 3px;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 10px; */
+    /* animation: moving 2s linear infinite; */
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .col1{
+        flex-basis: 100%;
+        /* padding: 10px; */
+    
+    }
+}
