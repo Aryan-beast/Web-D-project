@@ -1,0 +1,72 @@
+.info{
+    margin-top: 20px;
+    border: 0cm;
+    margin-bottom: 30px;
+}
+.home-button{
+    padding-left: 80rem;
+    padding-top: 2rem;
+}
+.home-button button{
+    background-color: blue;
+    color: white;
+}
+
+.card{
+    background: radial-gradient(#06b080,rgb(218, 218, 18),#17be25);
+    /* background: radial-gradient(wheat,white,black); */
+    text-align: center;
+    
+    
+}
+.texts{
+    text-align: center;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: bolder;
+    box-shadow: 1px 1px 5px 5px rgb(106, 34, 231);
+}
+.form-control1{
+    width: 20vw;
+    
+}
+.form-control{
+    width: 45vw;
+    background-color: bisque;
+    color: white;
+}
+#cnctform{
+    padding-left: 50vw;
+}
+#success{
+    font-style: italic;
+   display: none;
+   color: rgb(239, 11, 140);
+}
+.option{
+    color: rgb(97, 4, 60);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-larger;
+}
+#btn{
+    margin-left: 20vw;
+    width: 100px;
+    font-size: larger;
+    color:blue;
+    border-radius: 10%;
+}
+#btn:hover{
+    background-color: #17be25;
+    cursor: pointer;
+}
+@media (max-width:570px){
+
+#review{
+    height: 70px;
+}
+
+
+}

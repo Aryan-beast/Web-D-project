@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<style>
+    .container {
+        max-width: 40%;
+        /*Set your own width %; */
+
+    }
+
+    body {
+        background: url(images/1200px-Zabras_in_Mlilwane_Wildlife_Sanctuary.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
+
+<body>
+  
+    <div class="container mt-5 p-0 border rounded">
+        <div class="bg-primary text-center text-white">
+            <h1 style="color: black;">Feel The Thrill</h1>
+            <p>Register with us</p>
+        </div>
+        <table class="table text-danger">
+
+            <form action="/register" method="post">
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="firstName"><strong>First Name:</strong></label>
+                            <input type="text" class="form-control" placeholder="Enter your first name" id="firstName"name="firstname"value=" ">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label for="LastName"><strong>Last Name:</strong></label>
+                            <input type="text" class="form-control" placeholder="Enter your last name" id="LastName"name="lastname"value=" ">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <div class="form-group">
+                            <label for="email"><strong>Email address:</strong></label>
+                            <input type="email" class="form-control" placeholder="Enter email" id="email"name="email"value=" ">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label for="mobile"><strong>Mobile Number:</strong></label>
+                            <input type="tel" class="form-control" placeholder="Enter Mobile no." id="mobile"name="mobi"value=" ">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="form-group">
+                            <label for="dob"><strong>DOB:</strong></label>
+                            <input type="date" class="form-control" placeholder="Enter Date of birth" id="dob" name="dob" value=" ">
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="pwd"><strong>Password:</strong></label>
+                            <input type="password" class="form-control" placeholder="Enter password" id="pwd"name="password"value=" ">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label for="cnfpwd"><strong>Confirm Password:</strong> </label>
+                            <input type="password" class="form-control" placeholder="Confirm password" id="cnfpwd"name="cpassword"value=" ">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="btn btn-success btn-block"value="Register">SignUp</button>
+                    </td>
+                </tr>
+            </form>
+
+        </table>
+        <p style="color: red;"><big><b>Already have an acount?</b></big> <a href="#"><big><b>Sign in here</b></big></a>
+        </p>
+    </div>
+
+</body>
+
+</html>

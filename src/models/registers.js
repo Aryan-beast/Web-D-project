@@ -20,7 +20,7 @@ const peopleSchema= new mongoose.Schema({
     unique : true  
   },
   dob : {
-    type : Number,
+    type : String,
     required: true 
   },
   password : {
